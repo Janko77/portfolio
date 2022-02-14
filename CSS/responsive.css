@@ -1,0 +1,257 @@
+@media screen and (max-width: 767px) {
+
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sinkin_sans100_thin';
+}
+.img
+{
+    width: 100%;
+    height: auto;
+}
+ img
+{
+    width: 100%;
+    height: auto;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 15px 20px 15px 0;
+    background-color: rgba(255,255,255,0.1);
+    position: fixed;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+header nav ul
+{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 2.5vw;
+}
+#img img{
+    display: flex;
+    height: 4vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+header #img{
+    width: 10%;
+}
+
+header nav
+{
+    padding-top: 10px;
+    flex: 3;
+    justify-content: flex-end;
+    display: flex;
+}
+.pop
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.img
+{
+    position: relative;
+}
+section{
+    border: 2px solid black;
+    height: auto;
+}
+.acceuil
+{
+    position: absolute;
+    top: 60px;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8%;
+    line-height: 100%;
+    padding-top: 1.6vw;
+    justify-content: center;
+
+}
+.acceuil h2 ,.acceuil h3
+{   
+    display: flex;
+    font-size: 2.6vw;
+    font-weight: 100;
+}
+.button{
+    position: absolute;
+    padding-top: 75px;
+}
+.button button
+{
+   padding: 5px 5px;
+   border: none;
+   background-color: #680066;;
+   color: white;
+   border-radius: 50px;
+   margin-top: 25px;
+   font-size: 10px;
+   display: flex;
+}
+.qsj{
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    padding: 7% 0 0 14%;  
+}
+.nego{
+    width: 19%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+}
+.vide{
+    margin: 2% 0 0 2%;
+    width: 22%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #680066;;
+}
+.qsj #qsj{
+    padding: 0 2% 0 2%;
+    text-align: justify;
+    display: flex;
+    width: 50%;
+    flex: 1;
+}
+#qsj h3{
+    position: absolute;
+    display: flex;
+    font-size: 3vw;    
+}
+#qsj p{
+    padding-top: 15%;
+    font-size: 2.4vw;
+}
+.competences1{
+    height: auto;
+    justify-content: space-evenly;
+    padding: 20% 5% 0 5%;
+    gap: 100px;
+}
+.competences1 h3{
+    padding-left: 40px;
+    position: absolute;
+    font-size: 4vw;
+    display: flex;
+}
+.comp{
+    border-bottom: 1px solid black;
+    flex: 1 1 300px;
+    height: auto;
+    margin-top: 10%;
+    box-shadow: 2px 2px 4px #680066;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.comp img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 2px #680066;
+    margin-left: 20px;
+    
+}
+.comp h2{
+    float: right;
+    padding: 12px 140px 0 0;
+    font-size: 3vw;
+}
+.comp h1{
+    float: right; 
+    font-size: 3vw;
+    padding: 12px 90px 0 0;
+}
+.comp h4{
+    float: right;
+    padding: 12px 90px 0 0;
+    font-size: 3vw;
+}
+.comp p{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 2.2vw;
+}
+.competences2{
+    height: auto;
+    justify-content: space-evenly;
+    padding: 0 5% 0 5%;
+}
+.competences2 .comp h2{
+    float: right;
+    padding: 12px 90px 0 0;
+    font-size: 3vw;
+}
+.competences2 .comp h1{
+    float: right;
+    padding: 12px 130px 0 0;
+    font-size: 3vw;
+}
+.competences2 .comp h4{
+    float: right;
+    padding: 12px 130px 0 0;
+    font-size: 3vw;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(23, 0, 55);
+    position: absolute;
+    justify-content: space-around;
+}
+footer .divers{
+    display: flex;
+    width: 50%;
+}
+footer .img{
+    display: flex;
+    padding-top: 14px;
+    justify-content: center;
+    width: 30%;
+}
+footer .img img{
+    display: flex;
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+footer .reseau{
+    padding: 1% 0 0 0%;
+    display: flex;
+    width: 25%;
+}
+footer .divers P{
+    font-size: 1vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+footer .reseau img{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+}
