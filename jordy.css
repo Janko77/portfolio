@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'sinkin_sans100_thin';
+    src: url('fonts/SinkinSans-100Thin-webfont.eot');
+    src: url('fonts/SinkinSans-100Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SinkinSans-100Thin-webfont.woff2') format('woff2'),
+         url('fonts/SinkinSans-100Thin-webfont.woff') format('woff'),
+         url('fonts/SinkinSans-99Thin-webfont.ttf') format('truetype'),
+         url('fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sinkin_sans100_thin';
+}
+.img
+{
+    width: 100%;
+    height: auto;
+}
+ img
+{
+    width: 100%;
+    height: 98vh;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 15px 50px 15px 0;
+    background-color: rgba(255,255,255,0.1);
+    position: fixed;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+header nav ul
+{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 1.3vw;
+}
+#img img{
+    display: flex;
+    height: 7vh;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+header #img{
+    width: 10%;
+}
+
+header nav
+{
+    padding-top: 10px;
+    flex: 3;
+    justify-content: flex-end;
+    display: flex;
+}
+.pop
+{
+    width: 100%;
+    height: 98vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.img
+{
+    position: relative;
+}
+section{
+    width: auto;
+    height: auto;
+}
+.acceuil
+{
+    position: absolute;
+    top: 60px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    line-height: 310%;
+    padding-top: 5%;
+    justify-content: center;
+    height: auto;
+}
+.acceuil h2 ,.acceuil h3
+{   
+    display: flex;
+    font-size: 2.6vw;
+    font-weight: 100;
+}
+.button button
+{
+   padding: 15px 25px;
+   border: none;
+   background-color: #680066;
+   color: white;
+   border-radius: 50px;
+   margin-top: 15px;
+   font-size: 1.1vw;
+}
+.qsj{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding: 5% 0;  
+}
+.qsj .portrait{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40%;
+    height: auto;
+}
+.nego{
+    display: flex;
+    width: 43%;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px #680066;
+}
+.qsj #qsj{
+    text-align: justify;
+    display: flex;
+    width: 40%;
+}
+#qsj h3{
+    padding: 1% 0 0 0;
+    position: absolute;
+    display: flex;
+    font-size: 1.5vw;    
+}
+#qsj p{
+    padding-top: 15%;
+    font-size: 1.2vw;
+}
+.competences1{
+    height: auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+#comp{
+    padding: 7% 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.competences1 h3{
+    font-size: 1.8vw;
+}
+.comp{
+    border-bottom: 1px solid black;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #680066;
+}
+.comp img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 2px #680066;
+    
+}
+.comp p{
+    text-align: justify;
+    padding: 10px 10px;
+    font-size: 1vw;
+}
+.competences1 .comp h2{
+    float: right;
+    padding: 12px 90px 0 0;
+    font-size: 1.3vw;
+}
+.competences1 .comp h1{
+    float: right;
+    padding: 12px 150px 0 0;
+    font-size: 1.3vw;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(23, 0, 55);
+    position: absolute;
+    
+}
+footer .divers{
+    flex: 2;
+    display: flex;
+}
+footer .img{
+    display: flex;
+    flex: 0.7;
+    padding-top: 14px;
+    justify-content: center;
+}
+footer .img img{
+    display: flex;
+    height: 13vh;
+    width: 42%;
+}
+footer .reseau{
+    padding: 1% 0 0 10%;
+    display: flex;
+    flex: 1;
+    width: 15%;
+    
+}
+footer .divers P{
+    flex: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 1.3vw;
+}
+footer .reseau img{
+    display: flex;
+    height: 12vh;
+}
